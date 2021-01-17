@@ -2,7 +2,7 @@ module.exports = {
   name: "bug",
 category: "bot",
 run : async(client, message, args) => { 
-\\ again make this fit your command handler style 😀
+// again make this fit your command handler style 😀
   if (!args[0]) return message.reply("Please specify the bug. Example:\n`/punch isn't working. It isn't mentioning the user I'm trying to punch`");   
   if (args[0] === "bug") return message.reply("Please specify the bug. Example:\n`/punch isn't working. It isn't mentioning the user I'm trying to punch`");   
   args = args.join(" ");   
