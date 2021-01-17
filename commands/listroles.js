@@ -3,7 +3,7 @@ module.exports = {
   name: 'listroles',  
   category: "utility",
   run: async (client, message, args) => {  
-\\ make this fit your command handler style 😀
+// make this fit your command handler style 😀
 
     let rolemap = message.guild.roles.cache      
     .sort((a, b) => b.position - a.position)   
