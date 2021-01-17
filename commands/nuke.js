@@ -6,7 +6,7 @@ module.exports = {
 //Make this fit your command handler style 😀
 
 if (!message.member.hasPermission("MANAGE_CHANNELS")) {  
-  return message.reply(**You Need (MANAGE_CHANNELS) Permission To Run This Command}   
+  return message.reply("**You Need (MANAGE_CHANNELS) Permission To Run This Command")   
   let channel = client.channels.cache.get(message.channel.id)
   
 let Position = channel.position;   
