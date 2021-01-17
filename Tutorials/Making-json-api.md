@@ -30,4 +30,4 @@ const listener = app.listen(8080, () => {
 ```
 ### And You're Done With Api, Now You Can Access It At https://yourrepladdress/somethingyouwant
 ### Lastly Making It 24/7 You Can Look At Another Guide
-[Make Your Repl 24/7]()
+[Make Your Repl 24/7](https://dev.to/fizal619/so-you-want-to-make-a-discord-bot-4f0n)
