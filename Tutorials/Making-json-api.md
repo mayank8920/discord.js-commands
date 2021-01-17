@@ -19,4 +19,15 @@ const app = express();
 ### And We're Done With JSON File
 ### Next We're Back To Main File
 ```
-const robot = require(".
+const somethingyouwant = require("./filename.json")
+app.get("/somethingyouwant", (req, res) => {  
+var item = somethingyouwant[Math.floor(Math.random() * somethingyouwant.length)];   
+res.json(item); 
+}); 
+const listener = app.listen(8080, () => {   
+  console.log("Your app is listening on port " + listener.address().port); 
+});
+```
+### And You're Done With Api, Now You Can Access It At https://yourrepladdress/somethingyouwant
+### Lastly Making It 24/7 You Can Look At Another Guide
+[Make Your Repl 24/7]()
